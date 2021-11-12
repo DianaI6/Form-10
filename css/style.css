@@ -1,0 +1,334 @@
+ /*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* .header-wrapper{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;  
+} */
+
+.navigation{
+    /* display: inline-block; */
+    right: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+}
+.bg-image-1 img{
+    margin-top: 30px;
+    margin: 30px;
+}
+.nav-ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 500px;
+    top: 30px;
+    max-width: 700px;
+    width: 100%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    position: absolute;
+}
+.home{
+    color: blue;
+}
+.nav-ul a{
+    color: white;
+}
+.nav.li{
+    color: white;
+    /* ეს რატომ არ მუშაობს? */
+}
+.burger-icon{
+    color: red;
+    font-size: 30px;
+    display: none;
+}
+/* background image header */
+.bg-image-1{
+    background-image: url("../images/header-image.jpg");
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    -webkit-box-align: center;   
+        -ms-flex-align: center;   
+            align-items: center;
+    position: relative;
+    margin: 0 auto;
+    z-index: 30;
+}
+.h1h1{
+    position: absolute;
+    color: white;
+    left: 100px;
+    top: 80px;
+    font-size: 50px;
+}
+.left-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: white;
+}
+.line{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 2px;
+    height: 15px;
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/* icons */
+/* .icons{
+    margin-top: 75px;
+} */
+
+/* .fa-facebook-square{
+    font-size: 30px;
+}
+.fa-youtube{
+    font-size: 30px;
+}
+.fa-facebook-square:hover {
+    color:blue;
+}
+.fa-youtube:hover {
+    color: red;
+} */
+.container {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+     margin-top: 20px;
+     max-width: 1100px;
+     width: 100%;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+}
+.left-block{
+    max-width: 400px;
+    width: 100%;
+    /* margin-top: 20px;   */
+    margin-right: 50px;
+    vertical-align: center;  
+}
+.image3{
+    max-width: 530px;
+    width: 100%;
+}
+.left-block h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: blue;
+    font-style: bold;
+}
+.left-block h2{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p1{
+    font-size: larger;
+    margin-bottom: 10px;
+}
+.read-more{
+    max-width: 150px;
+    height: 50px;
+    background-color: cornflowerblue;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white; 
+}
+.right-block{
+    max-width: 550px;
+    width: 100%;
+}
+.right-top{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    max-width: 540;
+    width: 100%;
+}
+.bg-image-2{
+    background-image: url("../images/section-image.jpg");
+    /* height: 600px; */
+    height: auto;
+    width: 100%;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;   
+    /* align-items: center;
+    position: relative;
+    margin: 0 auto; */
+    padding-top: 92px;
+    padding-bottom: 90px;
+}
+.cont{
+    max-width: 1000;
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: white; */
+}
+.text-block{
+    margin-left: 50px;
+}
+.text-block p{
+    color: whitesmoke;
+    font-size: 50px;
+    font-style: inherit;
+}
+.cont h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: blue;
+}
+.flex-wrapper{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 34px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.block{
+    max-width: 250px;
+    width: 100%;
+    height: 260px;
+    background-color: white;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+.block h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.hotel{
+    background-color: cornflowerblue;
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hotel img{
+    margin: 0 auto;
+} 
+
+/* form styles */
+.contact{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.contact p{
+    font-size: 40px;
+}
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+     max-width: 1100px;
+     width: 100%;
+    /* flex-wrap: wrap; */
+}
+.form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-block-d{
+    max-width: 650px;
+    width: 100%;
+    margin-right: 20px;
+}
+.form-block-inp{
+    max-width: 300px;
+    width: 100%;
+    /* ერთმანეთს ვერ დავაშორე ზემოდან და ქვემოდან */
+}
+.input-block {
+    max-width: 250px;
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+}
+.btn-send {
+    max-width: 250px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: darkblue; 
+    /* margin-top: 30px; */
+    border: none;
+    /* border-radius: 25px; */
+}
+.btn-send img{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+}
+.textarea-block {
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+.input-block::placeholder,
+.textarea-block::placeholder {
+    color: blue;
+    font-size:14px;
+}
+.input-block:focus,
+.textarea-block:focus {
+    outline: none;
+}

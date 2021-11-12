@@ -1,0 +1,78 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+@media (max-width: 700px;) {
+    .navigation {
+        display: none;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
+@media (max-width: 540px){
+    .container {
+        /* width: 100%; */
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .right-block{
+        /* width: 60%; */
+        width: 300px;
+    }
+    .left-block{
+        /* width: 60%; */
+        width: 300px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .block:nth-child(4) {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 750px) {
+    .block:nth-child(3) {
+        margin-top: 30px;
+    }
+}
+@media (max-width: 500px) {
+    .block:nth-child(2) {
+        margin-top: 30px;
+    }
+    /* .form-block-inp{
+        margin-top: 30px;
+    } */
+}
+
+
+/* @media (max-width: 1000px) {
+    .flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .block:nth-child(1),
+    .block:nth-child(2),
+    .block:nth-child(3){
+        margin-bottom: 30px;
+    }
+} */
+
+
+/* @media (max-width: 1000px) {
+    .block {
+        width: 50%;   (ვერ ავამუშავე %-ები)
+    }
+    .block:nth-child(4),
+    .block:nth-child(3) {
+        margin-top: 30px;
+    }
+} */ 
